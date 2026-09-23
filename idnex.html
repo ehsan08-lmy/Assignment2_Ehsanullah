@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technologies - Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== TASK 1 ==================== -->
+
+    <section class="task-one">
+        <div class="composition">
+            <div class="block blue"></div>
+            <div class="block top-white"></div>
+            <div class="block yellow"></div>
+            <div class="block middle-white"></div>
+            <div class="block red"></div>
+            <div class="block bottom-white"></div>
+        </div>
+    </section>
+
+
+    <!-- ==================== TASK 2 ==================== -->
+
+    <section class="task-two">
+
+        <!-- Navigation Bar -->
+        <div class="component-section">
+            <h2>Navigation Bar</h2>
+
+            <nav class="navbar">
+                <div class="logo">WebLab</div>
+
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Services</a>
+                    <a href="#">About Us</a>
+                </div>
+
+                <div class="nav-buttons">
+                    <button>Log in</button>
+                    <button>Sign up</button>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Cards -->
+        <div class="component-section">
+            <h2>Card Components</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Learn how to build modern websites using HTML, CSS,
+                            and responsive design techniques.
+                        </p>
+                    </div>
+
+                    <button>Learn More</button>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>CSS Flexbox</h3>
+                        <p>
+                            Understand how Flexbox controls alignment,
+                            spacing, direction, and flexible layouts.
+                        </p>
+                    </div>
+
+                    <button>Learn More</button>
+                </article>
+
+                <article class="card">
+                    <div>
+                        <h3>Grid Layout</h3>
+                        <p>
+                            Create complex two-dimensional layouts with rows
+                            and columns while keeping the design responsive.
+                        </p>
+                    </div>
+
+                    <button>Learn More</button>
+                </article>
+
+            </div>
+        </div>
+
+
+        <!-- Pagination -->
+        <div class="component-section">
+            <h2>Pagination</h2>
+
+            <div class="pagination">
+
+                <button class="page-arrow">←</button>
+
+                <div class="page-numbers">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>4</button>
+                    <button>5</button>
+                </div>
+
+                <button class="page-arrow">→</button>
+
+                <span class="result-count">120 results</span>
+
+            </div>
+        </div>
+
+
+        <!-- Comment -->
+        <div class="component-section">
+            <h2>Comment</h2>
+
+            <div class="comment">
+
+                <img
+                    class="avatar"
+                    src="images/my-photo.jpg"
+                    alt="Ehsanullah Alimy"
+                >
+
+                <div class="comment-content">
+
+                    <div class="comment-header">
+                        <strong>Ehsanullah Alimy</strong>
+                        <span>2 hours ago</span>
+                    </div>
+
+                    <p>
+                        This is a longer comment to demonstrate how the text
+                        wraps naturally beside the avatar. Even when the
+                        comment becomes several lines long, the text remains
+                        in its own area and does not move underneath the avatar.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Pricing Plans -->
+        <div class="component-section">
+            <h2>Pricing Plans</h2>
+
+            <div class="pricing">
+
+                <article class="plan">
+
+                    <h3>Basic</h3>
+
+                    <p class="price">
+                        $9<span>/month</span>
+                    </p>
+
+                    <ul>
+                        <li>5 projects</li>
+                        <li>1 GB storage</li>
+                        <li>Email support</li>
+                    </ul>
+
+                    <button>Choose Plan</button>
+
+                </article>
+
+
+                <article class="plan recommended">
+
+                    <div class="recommended-label">
+                        Recommended
+                    </div>
+
+                    <h3>Professional</h3>
+
+                    <p class="price">
+                        $19<span>/month</span>
+                    </p>
+
+                    <ul>
+                        <li>20 projects</li>
+                        <li>10 GB storage</li>
+                        <li>Priority support</li>
+                        <li>Advanced analytics</li>
+                    </ul>
+
+                    <button>Choose Plan</button>
+
+                </article>
+
+
+                <article class="plan">
+
+                    <h3>Enterprise</h3>
+
+                    <p class="price">
+                        $39<span>/month</span>
+                    </p>
+
+                    <ul>
+                        <li>Unlimited projects</li>
+                        <li>100 GB storage</li>
+                        <li>Priority support</li>
+                    </ul>
+
+                    <button>Choose Plan</button>
+
+                </article>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ==================== TASK 3 ==================== -->
+
+    <section class="task-three">
+
+        <div class="component-section">
+
+            <h2>Three Layouts - Articles</h2>
+
+            <!--
+                Change ONLY the class:
+                grid-mode
+                list-mode
+                magazine-mode
+            -->
+
+            <div class="articles grid-mode">
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=1"
+                        alt="Technology"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>The Future of Web Development</h3>
+
+                        <p>
+                            Modern web technologies are changing how developers
+                            build fast and responsive websites.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 20, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=2"
+                        alt="Programming"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Learning Programming</h3>
+
+                        <p>
+                            Programming skills help students solve problems
+                            and create useful digital solutions.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 19, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=3"
+                        alt="Artificial Intelligence"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Artificial Intelligence in Everyday Life</h3>
+
+                        <p>
+                            AI is becoming part of education, business,
+                            communication, and many other areas.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 18, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=4"
+                        alt="Cybersecurity"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Why Cybersecurity Matters</h3>
+
+                        <p>
+                            Protecting personal information and digital systems
+                            is increasingly important.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 17, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=5"
+                        alt="Cloud Computing"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Introduction to Cloud Computing</h3>
+
+                        <p>
+                            Cloud platforms allow users and organizations to
+                            access powerful computing resources online.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 16, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=6"
+                        alt="Data Science"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Data Science and Big Data</h3>
+
+                        <p>
+                            Data science combines programming, statistics,
+                            and analysis to discover useful information.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 15, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=7"
+                        alt="Mobile Development"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Building Mobile Applications</h3>
+
+                        <p>
+                            Mobile applications have become an important part
+                            of modern digital experiences.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 14, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=8"
+                        alt="Database"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Understanding Databases</h3>
+
+                        <p>
+                            Databases organize information so applications can
+                            store, retrieve, and manage data efficiently.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 13, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=9"
+                        alt="Software Engineering"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Principles of Software Engineering</h3>
+
+                        <p>
+                            Good software development requires planning,
+                            testing, collaboration, and maintainable code.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 12, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=10"
+                        alt="Internet"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>How the Internet Connects the World</h3>
+
+                        <p>
+                            The internet enables people, services, and devices
+                            around the world to communicate instantly.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 11, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=11"
+                        alt="Open Source"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>The Power of Open Source</h3>
+
+                        <p>
+                            Open-source projects allow developers to collaborate
+                            and build software together.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 10, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="article">
+
+                    <img
+                        src="https://picsum.photos/400/250?random=12"
+                        alt="Technology Education"
+                    >
+
+                    <div class="article-content">
+
+                        <h3>Technology and Education</h3>
+
+                        <p>
+                            Digital tools are creating new opportunities for
+                            students to learn and collaborate.
+                        </p>
+
+                        <span class="article-date">
+                            Sep 9, 2026
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
