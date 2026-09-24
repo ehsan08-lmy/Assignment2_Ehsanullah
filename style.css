@@ -21,13 +21,12 @@ body {
 .composition {
     width: min(90vw, 90vh);
     aspect-ratio: 1 / 1;
-    padding: 0.5vw;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
 
     gap: 0.5vw;
-    
+    padding: 0.5vw;
     background: #1a1a1a;
 }
 
